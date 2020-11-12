@@ -21,7 +21,14 @@ public class TipoString {
 		var salario = 12345.987;
 		System.out.println("Nome: " + nome + "\nSobrenome: "
 				+ sobrenome + "\nIdade: " + idade +
-				"\nSalario: " + salario);
+				"\nSalario: " + salario + "\n\n");
+		
+		System.out.printf("O senhor %s %s tem %d anos e ganha R$%.2f",
+				nome, sobrenome, idade, salario);
+		String frase = String.format("O senhor %s %s tem %d anos e ganha R$%.2f",
+				nome, sobrenome, idade, salario);
+		
+		System.out.println(frase);
 	}
 
 }
