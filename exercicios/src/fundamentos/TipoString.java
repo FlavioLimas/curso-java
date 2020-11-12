@@ -6,6 +6,9 @@ public class TipoString {
 		System.out.println("Olá pessoal".charAt(2));
 		
 		String s = "Boa tarde";
+		
+		s = s.toUpperCase();
+		s = "Bom dia";
 		System.out.println(s.concat("!!!"));
 		System.out.println(s + "!!!");
 	}
