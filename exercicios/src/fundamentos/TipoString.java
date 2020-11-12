@@ -10,6 +10,7 @@ public class TipoString {
 		System.out.println(s.concat("!!!"));
 		System.out.println(s + "!!!");
 		System.out.println(s.toLowerCase().startsWith("boa"));
+		System.out.println(s.length());
 	}
 
 }
