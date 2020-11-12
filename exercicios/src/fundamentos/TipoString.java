@@ -25,7 +25,7 @@ public class TipoString {
 		
 		System.out.printf("O senhor %s %s tem %d anos e ganha R$%.2f",
 				nome, sobrenome, idade, salario);
-		String frase = String.format("O senhor %s %s tem %d anos e ganha R$%.2f",
+		String frase = String.format("\nO senhor %s %s tem %d anos e ganha R$%.2f",
 				nome, sobrenome, idade, salario);
 		
 		System.out.println(frase);
