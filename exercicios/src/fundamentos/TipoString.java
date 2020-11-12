@@ -29,6 +29,9 @@ public class TipoString {
 				nome, sobrenome, idade, salario);
 		
 		System.out.println(frase);
+		System.out.println("Frase qualquer".contains("qual"));
+		System.out.println("Frase qualquer".indexOf("qual"));
+		System.out.println("Frase qualquer".substring(6, 10));
 	}
 
 }
