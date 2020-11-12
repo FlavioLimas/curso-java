@@ -12,6 +12,7 @@ public class TipoString {
 		System.out.println(s.toLowerCase().startsWith("boa"));
 		System.out.println(s.toUpperCase().endsWith("TARDE"));
 		System.out.println(s.length());
+		System.out.println(s.equals("boa tarde"));
 	}
 
 }
