@@ -21,6 +21,10 @@ public class Wrapper {
 		
 		System.out.println(bo);
 		System.out.println(bo.toString().toUpperCase());
+		
+		Character c = '#';
+		
+		System.out.println(c + "...");
 
 	}
 }
