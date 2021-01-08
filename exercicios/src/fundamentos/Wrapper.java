@@ -13,7 +13,7 @@ public class Wrapper {
 		System.out.println(b.byteValue());
 		System.out.println(s.toString());
 		System.out.println(i * 3);
-		System.out.println(l / 3);
+		System.out.println(l / 3.0);
 
 	}
 }
