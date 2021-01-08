@@ -17,6 +17,9 @@ public class Wrapper {
 		System.out.println(i * 3);
 		System.out.println(l / 3);
 		
+		Float f = 132.10F;
+		System.out.println(f);
+		
 		Boolean bo = Boolean.parseBoolean("true");
 		
 		System.out.println(bo);
