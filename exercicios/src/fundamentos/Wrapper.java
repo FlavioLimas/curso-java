@@ -20,6 +20,10 @@ public class Wrapper {
 		Float f = 132.10F;
 		System.out.println(f);
 		
+		Double d = 123.55678;
+		
+		System.out.println(d);
+		
 		Boolean bo = Boolean.parseBoolean("true");
 		
 		System.out.println(bo);
