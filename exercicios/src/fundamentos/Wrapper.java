@@ -6,5 +6,6 @@ public class Wrapper {
 		
 		//byte
 		Byte b = 100;
+		Short s = 1000;
 	}
 }
