@@ -36,6 +36,8 @@ public class DesafioConversao {
 		System.out.printf("3º Salário: ");
 		Double terceiroSalario = converteToDouble(formataDados(entrada.nextLine()));
 		
+		entrada.close();
+		
 		System.out.println(primeiroSalario + " \n" + segundoSalario + " \n" + terceiroSalario);
 		System.out.println("Soma Salarial referente aos 3 meses: " + somaSalario(primeiroSalario, segundoSalario, terceiroSalario));
 		System.out.println("A Media salarial é: " + somaSalario(primeiroSalario, segundoSalario, terceiroSalario) / 3);
