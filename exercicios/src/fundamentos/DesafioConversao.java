@@ -31,7 +31,7 @@ public class DesafioConversao {
 		Double primeiroSalario = converteToDouble(formataDados(entrada.nextLine()));
 		
 		System.out.printf("2º Salário: ");
-		Double segundoSalario = converteToDouble(formataDados(entrada.nextLine()));
+		Double segundoSalario = converteToDouble(entrada.nextLine().replace(",", "."));
 		
 		System.out.printf("3º Salário: ");
 		Double terceiroSalario = converteToDouble(formataDados(entrada.nextLine()));
