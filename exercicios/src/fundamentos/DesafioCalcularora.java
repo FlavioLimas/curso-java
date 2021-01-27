@@ -1,50 +1,40 @@
 package fundamentos;
 
-import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class DesafioCalcularora {
 	
-	public static Integer leituraNum() {
-		Scanner entrada = new Scanner(System.in);
-		return entrada.nextInt();
-	}
-	
-	public static String leituraText() {
-		Scanner entrada = new Scanner(System.in);
-		return entrada.nextLine();
-	}
-	
 	public static void main(String[] args) {
 		
-		System.out.println("Informe o primeiro numero ");
-		int n1 = leituraNum();
+		double n1 = Double.parseDouble(JOptionPane.showInputDialog("Informe o primeiro numero").trim());
 		
-		System.out.println("Informe a operação ");
-		String operacao = leituraText();
+		String operacao = JOptionPane.showInputDialog("Informe a operação").trim();
 		
-		System.out.println("Informe o primeiro segundo ");
-		int n2 = leituraNum();
-		
-		System.out.println("Resultado da operacao: ");
+		double n2 = Double.parseDouble(JOptionPane.showInputDialog("Informe o segundo numero").trim());
 		
 		if (operacao.equals("+")) {
-			System.out.println(n1 + n2);
+			double resultado = n1 + n2;
+			JOptionPane.showMessageDialog(null,"Resultado da operacao:" + resultado );
 		}
 		
 		if (operacao.equals("-")) {
-			System.out.println(n1 - n2);
+			double resultado = n1 - n2;
+			JOptionPane.showMessageDialog(null, "Resultado da operacao:" + resultado);
 		}
 		
 		if (operacao.equals("*")) {
-			System.out.println(n1 * n2);
+			double resultado = n1 * n2;
+			JOptionPane.showMessageDialog(null, "Resultado da operacao:" + resultado);
 		}
 		
 		if (operacao.equals("/")) {
-			System.out.println(n1 / n2);
+			double resultado = n1 / n2;
+			JOptionPane.showMessageDialog(null, "Resultado da operacao:" + resultado);
 		}
 		
 		if (operacao.equals("%")) {
-			System.out.println(n1 % n2);
+			double resultado = n1 % n2;
+			JOptionPane.showMessageDialog(null, "Resultado da operacao:" + resultado);
 		}
 	}
 
