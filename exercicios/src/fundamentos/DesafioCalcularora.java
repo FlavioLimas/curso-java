@@ -36,6 +36,10 @@ public class DesafioCalcularora {
 			double resultado = n1 % n2;
 			JOptionPane.showMessageDialog(null, "Resultado da operacao:" + resultado);
 		}
+		
+		if (operacao.isEmpty()) {
+			JOptionPane.showMessageDialog(null, "Resultado da operacao:" + 0);
+		}
 	}
 
 }
