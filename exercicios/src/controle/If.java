@@ -10,7 +10,7 @@ public class If {
 		System.out.println("Informe a media: ");
 		double media = Double.parseDouble(entrada.next());
 		
-		if (media >= 7.0) {
+		if (media <= 10 && media >= 7.0) {
 			System.out.println("Aprovado!");
 		}
 		
