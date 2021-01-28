@@ -23,7 +23,7 @@ public class DesafioCalcularora {
 		}
 		
 		if (operacao.equals("*")) {
-			double resultado = n1 * n2;
+			 double resultado = n1 * n2; 
 			JOptionPane.showMessageDialog(null, "Resultado da operacao:" + resultado);
 		}
 		
