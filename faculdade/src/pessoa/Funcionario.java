@@ -1,5 +1,5 @@
 package pessoa;
 
-public class Funcionario {
+// public class Funcionario {
 
-}
+// }
