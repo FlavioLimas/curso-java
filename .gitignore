@@ -99,3 +99,5 @@ hs_err_pid*
 target/
 
 # End of https://www.toptal.com/developers/gitignore/api/eclipse,java,java-web
+# Propets VScode
+.vscode
