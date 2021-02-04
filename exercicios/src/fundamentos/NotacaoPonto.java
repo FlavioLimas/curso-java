@@ -1,4 +1,4 @@
-package fundamentos;
+
 
 public class NotacaoPonto {
 	
@@ -19,7 +19,7 @@ public class NotacaoPonto {
 				.concat("!!!");
 		System.out.println(y);
 		
-//		Tipos primitivos não tem o operador "."
+//		Tipos primitivos nï¿½o tem o operador "."
 		
 	}
 

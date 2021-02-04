@@ -1,4 +1,4 @@
-package fundamentos.operadores;
+package operadores;
 
 public class DesafioAritimetico {
 
@@ -23,7 +23,7 @@ public class DesafioAritimetico {
 		System.out.println(divisor / dividendo);
 		
 		/**
-		 * Correção do Desafio Aritimetico
+		 * Correcao do Desafio Aritimetico
 		 */
 
 		double numA =  Math.pow(6 * (3 + 2), 2);

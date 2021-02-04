@@ -1,4 +1,4 @@
-package fundamentos;
+
 
 import javax.swing.JOptionPane;
 
@@ -17,8 +17,8 @@ public class ConversaoStringNumero {
 		double numero2 = Double.parseDouble(valor2);
 		
 		double soma = numero1 + numero2;
-		System.out.println("Soma é " + soma);
-		System.out.println("Média é " + soma / 2);
+		System.out.println("Soma ï¿½ " + soma);
+		System.out.println("Mï¿½dia ï¿½ " + soma / 2);
 	}
 
 }

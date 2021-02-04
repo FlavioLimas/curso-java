@@ -1,4 +1,4 @@
-package fundamentos.operadores;
+package operadores;
 
 public class DesafioLogicos {
 
@@ -15,7 +15,7 @@ public class DesafioLogicos {
 		System.out.println("Comprou Tv 50\"? " + comprouTV50);
 		System.out.println("Comprou Tv 32\"? " + comprouTV32);
 		System.out.println("Comprou Sorvete? " + comprouSorvete);
-		System.out.println("Mais saud·vel? " + maisSaldavel);
+		System.out.println("Mais saud√°vel? " + maisSaldavel);
 	}
 
 }

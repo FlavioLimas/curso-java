@@ -1,4 +1,4 @@
-package fundamentos;
+
 
 import javax.swing.JOptionPane;
 
@@ -8,7 +8,7 @@ public class DesafioCalcularora {
 		
 		double n1 = Double.parseDouble(JOptionPane.showInputDialog("Informe o primeiro numero").trim());
 		
-		String operacao = JOptionPane.showInputDialog("Informe a operação").trim();
+		String operacao = JOptionPane.showInputDialog("Informe a operaï¿½ï¿½o").trim();
 		
 		double n2 = Double.parseDouble(JOptionPane.showInputDialog("Informe o segundo numero").trim());
 		
