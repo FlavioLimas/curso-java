@@ -7,19 +7,19 @@ public class DesafioDiasSemana {
         System.out.print("Informe do dia da semana: ");
         String diaSemana = entrada.next();
         
-        if (diaSemana.toLowerCase().equals("domingo")) {
+        if (diaSemana.equalsIgnoreCase("domingo")) {
             System.out.println(1);
-        } else if (diaSemana.equals("segunda")) {
+        } else if (diaSemana.equalsIgnoreCase("segunda")) {
             System.out.println(2);
-        } else if (diaSemana.equals("terca")) {
+        } else if (diaSemana.equalsIgnoreCase("terca")) {
             System.out.println(3);
-        } else if (diaSemana.equals("quarta")) {
+        } else if (diaSemana.equalsIgnoreCase("quarta")) {
             System.out.println(4);
-        } else if (diaSemana.equals("quinta")) {
+        } else if (diaSemana.equalsIgnoreCase("quinta")) {
             System.out.println(5);
-        } else if (diaSemana.equals("sexta")) {
+        } else if (diaSemana.equalsIgnoreCase("sexta")) {
             System.out.println(6);
-        } else if (diaSemana.equals("sabado")) {
+        } else if (diaSemana.equalsIgnoreCase("sabado")) {
             System.out.println(7);
         } else {
             System.out.print("Infomrado dia inválido");
