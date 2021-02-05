@@ -1,4 +1,3 @@
-package fundamentos;
 
 public class ConversaoTipoPrimitivosNumerico {
 

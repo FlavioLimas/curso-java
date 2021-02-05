@@ -1,5 +1,3 @@
-package fundamentos;
-
 import java.util.Scanner;
 
 public class Console {
@@ -12,7 +10,7 @@ public class Console {
 		
 		System.out.printf("Megasena: %d %d %d %d %d %d %n",
 				1, 2, 3, 4, 5, 6);
-		System.out.printf("Sal·rio: %.1f%n", 1234.5678);
+		System.out.printf("Sal√°rio: %.1f%n", 1234.5678);
 		System.out.printf("Nome: %s", "Flavio Lima\n");
 		
 		Scanner entrada = new Scanner(System.in);

@@ -1,4 +1,4 @@
-package fundamentos;
+
 
 import java.util.Scanner;
 
@@ -26,21 +26,21 @@ public class DesafioConversao {
 
 		Scanner entrada = new Scanner(System.in);
 		
-		System.out.printf("Favor informar os 3 ultimos Salários: \n");
-		System.out.printf("1º Salário: ");
+		System.out.printf("Favor informar os 3 ultimos Salï¿½rios: \n");
+		System.out.printf("1ï¿½ Salï¿½rio: ");
 		Double primeiroSalario = converteToDouble(formataDados(entrada.nextLine()));
 		
-		System.out.printf("2º Salário: ");
+		System.out.printf("2ï¿½ Salï¿½rio: ");
 		Double segundoSalario = converteToDouble(entrada.nextLine().replace(",", "."));
 		
-		System.out.printf("3º Salário: ");
+		System.out.printf("3ï¿½ Salï¿½rio: ");
 		Double terceiroSalario = converteToDouble(formataDados(entrada.nextLine()));
 		
 		entrada.close();
 		
 		System.out.println(primeiroSalario + " \n" + segundoSalario + " \n" + terceiroSalario);
 		System.out.println("Soma Salarial referente aos 3 meses: " + somaSalario(primeiroSalario, segundoSalario, terceiroSalario));
-		System.out.println("A Media salarial é: " + somaSalario(primeiroSalario, segundoSalario, terceiroSalario) / 3);
+		System.out.println("A Media salarial ï¿½: " + somaSalario(primeiroSalario, segundoSalario, terceiroSalario) / 3);
 		
 	}
 

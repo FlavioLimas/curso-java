@@ -1,4 +1,3 @@
-package fundamentos;
 
 public class AreaCircunferencia {
 
@@ -10,6 +9,6 @@ public class AreaCircunferencia {
 		
 		raio = 10;
 		area = PI * raio * raio;
-		System.out.println("¡rea = " + area + "m2.");
+		System.out.println("√Årea = " + area + "m2.");
 	}
 }

@@ -1,9 +1,9 @@
-package fundamentos;
+
 
 public class TiposPrimitivos {
 	
 	public static void main(String[] args) {
-//		Informações do funcionario
+//		Informaï¿½ï¿½es do funcionario
 		
 //		Tipos Numericos inteiros
 		byte anosDeEmpresa = 23;
@@ -31,7 +31,7 @@ public class TiposPrimitivos {
 		System.out.println(pontosAcumulados / vendasAcumuladas);
 		
 		System.out.println(id + ": ganha -> " + salario);
-		System.out.println("Férias " + estaDeFerias);
+		System.out.println("Fï¿½rias " + estaDeFerias);
 		System.out.println("Status: " + status);
 	}
 
