@@ -11,7 +11,10 @@ public class DataTeste {
         data2.mes = 1;
         data2.ano = 2021;
 
-        System.out.println(data1.obterDataFormatada(data1.dia, data1.mes, data1.ano));
-        System.out.println(data2.obterDataFormatada(data2.dia, data2.mes, data2.ano));
+        System.out.println(data1.obterDataFormatada());
+        System.out.println(data2.obterDataFormatada());
+
+        data1.imprimirDataFormatada();
+        data2.imprimirDataFormatada();
     }
 }
