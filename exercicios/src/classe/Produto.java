@@ -7,11 +7,7 @@ public class Produto {
     Produto() {
 
     }
-        
-    Produto(String nomeInicial) {
-        nome = nomeInicial;
-    }
-
+    
     Produto(String nomeInicial, double precoInicial) {
         nome = nomeInicial;
         preco = precoInicial;
