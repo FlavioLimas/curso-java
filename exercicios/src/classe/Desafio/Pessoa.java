@@ -14,4 +14,8 @@ public class Pessoa {
             this.peso += comida.peso;            
         }
     }
+
+    String arpesentar() {
+        return String.format("Olá eu sou o %s e tenho %.3f Kgs.", nome, peso);
+    }
 }
