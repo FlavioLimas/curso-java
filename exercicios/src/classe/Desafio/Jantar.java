@@ -6,16 +6,22 @@ public class Jantar {
         Comida comida2 = new Comida("Feijão", 0.300);
         
         Pessoa pessoa1 = new Pessoa("Flavio", 99.8);
-        Pessoa pessoa2 = new Pessoa("João", 70.);
-
         System.out.println(pessoa1.arpesentar());
-        System.out.println(pessoa2.arpesentar());
-        
+     
         pessoa1.comer(comida1);
-        pessoa2.comer(comida2);
-        
         System.out.println("Após a refeicao:");
         System.out.println(pessoa1.arpesentar());
+        
+        pessoa1.comer(comida2);
+        System.out.println("Após a refeicao:");
+        System.out.println(pessoa1.arpesentar());
+        
+        
+        
+        Pessoa pessoa2 = new Pessoa("João", 70.);
+        System.out.println(pessoa2.arpesentar());
+        pessoa2.comer(comida2);
+        System.out.println("Após a refeicao:");
         System.out.println(pessoa2.arpesentar());
         
     }
