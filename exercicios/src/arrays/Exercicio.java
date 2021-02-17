@@ -1,7 +1,7 @@
 public class Exercicio {
     public static void main(String[] args) {
         
-        double notasAlunoA[] = new double[3];
+        double [] notasAlunoA = new double[3];
 
     }
 }
