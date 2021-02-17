@@ -4,6 +4,7 @@ public class Exercicio {
     public static void main(String[] args) {
         
         double[] notasAlunoA = new double[3];
+        System.out.println(Arrays.toString(notasAlunoA));
 
         notasAlunoA[0] = 7.9;
         notasAlunoA[1] = 8;
