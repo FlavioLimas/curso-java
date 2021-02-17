@@ -15,12 +15,20 @@ public class Exercicio {
 
         // Calculando media do aluno
 
-        double total = 0;
+        double totalAlunoA = 0;
         for(int i = 0; i < notasAlunoA.length; i++) {
-            total += notasAlunoA[i];
+            totalAlunoA += notasAlunoA[i];
         }
         // Na operação entre um double e um int o resultado será sempre um double
-        System.out.println(total / notasAlunoA.length);
+        System.out.println(totalAlunoA / notasAlunoA.length);
+
+        double[] notasAlunoB = {6.9, 8.9, 5.5, 10};
+
+        double totalAlunoB = 0;
+        for (int i = 0; i < notasAlunoB.length; i++) {
+            totalAlunoB += notasAlunoB[i];
+        }
+        System.out.println(totalAlunoB / notasAlunoB.length);
     }    
 
 }
