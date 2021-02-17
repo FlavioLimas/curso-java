@@ -12,6 +12,7 @@ public class Exercicio {
         notasAlunoA[3] = 9.7;
 
         System.out.println(Arrays.toString(notasAlunoA));
+        System.out.println(notasAlunoA[0]);
 
         // Calculando media do aluno
 
