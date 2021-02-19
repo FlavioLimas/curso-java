@@ -12,5 +12,10 @@ public class ConjuntoBaguncado {
         conjunto.add('x');
 
         System.out.println(conjunto.size());
+        
+        conjunto.add("Teste");
+        System.out.println(conjunto.toString());
+        
+        
     }
 }
