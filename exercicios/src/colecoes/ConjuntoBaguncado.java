@@ -16,6 +16,14 @@ public class ConjuntoBaguncado {
         conjunto.add("Teste"); // Esse elemento ja foi inserido e será ignorado a inserção do mesmo
         System.out.println(conjunto.size());
         
-        
+        System.out.println(conjunto.remove("teste"));
+        System.out.println(conjunto.remove("Teste"));
+        System.out.println(conjunto.remove('x'));
+        System.out.println(conjunto.toString());
+
+        System.out.println(conjunto.contains('x'));
+        System.out.println(conjunto.contains(1));
+        System.out.println(conjunto.contains(true));
+        System.out.println(conjunto.contains(false));
     }
 }
