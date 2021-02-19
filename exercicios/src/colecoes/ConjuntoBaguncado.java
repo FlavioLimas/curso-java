@@ -13,8 +13,8 @@ public class ConjuntoBaguncado {
 
         System.out.println(conjunto.size());
         
-        conjunto.add("Teste");
-        System.out.println(conjunto.toString());
+        conjunto.add("Teste"); // Esse elemento ja foi inserido e será ignorado a inserção do mesmo
+        System.out.println(conjunto.size());
         
         
     }
