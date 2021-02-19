@@ -1,4 +1,5 @@
 import java.util.HashSet;
+import java.util.Set;
 
 public class ConjuntoBaguncado {
     public static void main(String[] args) {
@@ -25,5 +26,18 @@ public class ConjuntoBaguncado {
         System.out.println(conjunto.contains(1));
         System.out.println(conjunto.contains(true));
         System.out.println(conjunto.contains(false));
+
+        Set nums = new HashSet();
+
+        nums.add(1);
+        nums.add(2);
+        nums.add(3);
+
+        System.out.println(nums);
+        System.out.println(conjunto);
+
+        conjunto.addAll(nums); // União entre dois conjuntos
+        // conjunto.retainAll(nums);
+        System.out.println(conjunto);
     }
 }
