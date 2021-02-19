@@ -2,6 +2,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class ConjuntoBaguncado {
+@SuppressWarnings({"rawtypes", "unchecked"})
     public static void main(String[] args) {
 
         HashSet conjunto = new HashSet();
@@ -38,6 +39,9 @@ public class ConjuntoBaguncado {
 
         // conjunto.addAll(nums); // União entre dois conjuntos
         conjunto.retainAll(nums);
+        System.out.println(conjunto);
+
+        conjunto.clear();
         System.out.println(conjunto);
     }
 }
