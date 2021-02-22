@@ -3,12 +3,16 @@ import java.util.Set;
 
 public class ConjuntoComportado {
     public static void main(String[] args) {
-        Set<String> lista = new HashSet<>();
-        lista.add("Ana");
-        lista.add("Carlos");
-        lista.add("Luca");
-        lista.add("Pedro");
+        Set<String> listaAprovados = new HashSet<>();
+        listaAprovados.add("Ana");
+        listaAprovados.add("Carlos");
+        listaAprovados.add("Luca");
+        listaAprovados.add("Pedro");
 
-        System.out.println(lista);
+        for (String candidato : listaAprovados) {
+
+            System.out.println(candidato);
+        }
+
     }
 }
