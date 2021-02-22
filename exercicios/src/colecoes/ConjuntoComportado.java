@@ -3,7 +3,7 @@ import java.util.Set;
 
 public class ConjuntoComportado {
     public static void main(String[] args) {
-        Set<String> lista = new HashSet<String>();
+        Set<String> lista = new HashSet<>();
         lista.add("Ana");
         lista.add("Carlos");
         lista.add("Luca");
