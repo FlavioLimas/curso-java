@@ -1,5 +1,6 @@
 import java.util.HashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class ConjuntoComportado {
     public static void main(String[] args) {
@@ -14,5 +15,16 @@ public class ConjuntoComportado {
             System.out.println(candidato);
         }
 
+        System.out.println();
+
+        Set<String> listaOrdenadaAprovados = new TreeSet<>();
+        listaOrdenadaAprovados.add("Ana");
+        listaOrdenadaAprovados.add("Carlos");
+        listaOrdenadaAprovados.add("Luca");
+        listaOrdenadaAprovados.add("Pedro");
+
+        for (String item : listaOrdenadaAprovados) {
+            System.out.println(item);
+        }
     }
 }
