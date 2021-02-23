@@ -5,6 +5,10 @@ public class Usuarios {
         this.nome = nome;
     }
 
+    public String toString() {
+        return "Meu nome é " + this.nome + ".";
+    }
+
     @Override
     public int hashCode() {
         final int prime = 31;
