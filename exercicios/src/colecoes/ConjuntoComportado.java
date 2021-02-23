@@ -32,8 +32,8 @@ public class ConjuntoComportado {
 
         SortedSet<Integer> nums = new TreeSet<>();
         nums.add(1);
-        nums.add(2);
         nums.add(120);
+        nums.add(2);
         nums.add(6);
 
         for (Integer n : nums) {
