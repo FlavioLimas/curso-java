@@ -11,10 +11,10 @@ public class Lista {
         list.add(new Usuarios("Bia"));
         list.add(new Usuarios("Manu"));
 
-        System.out.println(list.get(3).nome);
+        System.out.println(list.get(3));
 
         for (Usuarios u : list) {
-            System.out.println(u.nome);
+            System.out.println(u);
         }
     }
 }
