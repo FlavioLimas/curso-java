@@ -12,6 +12,11 @@ public class Lista {
         list.add(new Usuarios("Manu"));
 
         System.out.println(list.get(3));
+        
+        System.out.println(">>> " + list.remove(1));
+        System.out.println(list.remove(new Usuarios("Manu")));
+        System.out.println(list.contains(new Usuarios("Lia")));
+
 
         for (Usuarios u : list) {
             System.out.println(u);
