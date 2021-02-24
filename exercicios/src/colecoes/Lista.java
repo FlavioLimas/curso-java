@@ -2,23 +2,23 @@ import java.util.ArrayList;
 
 public class Lista {
     public static void main(String[] args) {
-        ArrayList<Usuarios> list = new ArrayList<>();
+        ArrayList<Users> list = new ArrayList<>();
 
-        Usuarios u1 = new Usuarios("Ana");
+        Users u1 = new Users("Ana");
         list.add(u1);
-        list.add(new Usuarios("Carlos"));
-        list.add(new Usuarios("Lia"));
-        list.add(new Usuarios("Bia"));
-        list.add(new Usuarios("Manu"));
+        list.add(new Users("Carlos"));
+        list.add(new Users("Lia"));
+        list.add(new Users("Bia"));
+        list.add(new Users("Manu"));
 
         System.out.println(list.get(3));
         
         System.out.println(">>> " + list.remove(1));
-        System.out.println("Tem? " + list.remove(new Usuarios("Manu")));
-        System.out.println("Tem? " + list.contains(new Usuarios("Lia")));
+        System.out.println("Tem? " + list.remove(new Users("Manu")));
+        System.out.println("Tem? " + list.contains(new Users("Lia")));
 
 
-        for (Usuarios u : list) {
+        for (Users u : list) {
             System.out.println(u);
         }
     }
