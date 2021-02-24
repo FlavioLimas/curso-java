@@ -25,7 +25,7 @@ public class Users {
             return false;
         if (getClass() != obj.getClass())
             return false;
-        Usuario other = (Usuario) obj;
+        Users other = (Users) obj;
         if (nome == null) {
             if (other.nome != null)
                 return false;
