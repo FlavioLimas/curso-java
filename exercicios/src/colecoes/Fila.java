@@ -25,7 +25,7 @@ public class Fila {
         System.out.println(fila.element());
 
         System.out.println("Remove ->> " + fila.remove()); // Remove o proximo item da fila e retorna o item removido
-                                                            // - OBS: Caso não tenha nenhum elemento na fila será dispara uma excepition java.util.NoSuchElementException
+                                                            // - OBS: Caso não tenha nenhum elemento na fila será disparado uma excepition java.util.NoSuchElementException
 
         System.out.println(fila.poll()); // Remove o primeiro elemento da fila depois retorna a fila com elementos que sobraram 
                                                 // -OBS: caso não tenha nenhum elemento na fila será retornado null
