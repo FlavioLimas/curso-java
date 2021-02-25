@@ -16,7 +16,7 @@ public class Fila {
         
         // Lista vazia peek retorna null
         // Lista vazia element dispara uma excepition java.util.NoSuchElementException
-        //Diferença é o comportamento quando a fila está cheia!
+        //Diferença é o comportamento quando a fila está vazia!
         System.out.println(fila.peek()); // retorna false
         System.out.println(fila.peek());
         System.out.println(fila.element()); // Lança uma exceção
