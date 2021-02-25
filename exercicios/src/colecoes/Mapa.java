@@ -7,11 +7,12 @@ public class Mapa {
         Map<Integer, String> usuarios = new HashMap<>();
         usuarios.put(1, "Roberto");
         usuarios.put(2, "Ricardo");
-        usuarios.put(3, "Rafaela");
+        usuarios.put(20, "Rafaela");
         usuarios.put(4, "Rebeca");
 
         System.out.println(usuarios.size());
         System.out.println(usuarios.isEmpty());
-
+        
+        System.out.println(usuarios.keySet()); // Retorna as chaves do objeto
     }
 }
