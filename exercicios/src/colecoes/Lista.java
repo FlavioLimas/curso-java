@@ -5,7 +5,7 @@ public class Lista {
         ArrayList<Users> list = new ArrayList<>();
 
         Users u1 = new Users("Ana");
-        list.add(u1);
+        System.out.println(" - > > " + list.add(u1)); // Metodo .add retorno true or false
         list.add(new Users("Carlos"));
         list.add(new Users("Lia"));
         list.add(new Users("Bia"));
