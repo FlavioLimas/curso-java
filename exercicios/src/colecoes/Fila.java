@@ -14,6 +14,8 @@ public class Fila {
         fila.add("Rafaela");
         fila.offer("Gui");
         
+        // Peek e Element -> obter o proximo elemento da fila (sem remover)
+        
         // Lista vazia peek retorna null
         // Lista vazia element dispara uma excepition java.util.NoSuchElementException
         //Diferença é o comportamento quando a fila está vazia!
