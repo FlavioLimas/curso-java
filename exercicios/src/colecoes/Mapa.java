@@ -14,5 +14,6 @@ public class Mapa {
         System.out.println(usuarios.isEmpty());
         
         System.out.println(usuarios.keySet()); // Retorna as chaves do objeto
+        System.out.println(usuarios.values()); // Retorna os valores do objeto
     }
 }
