@@ -15,7 +15,7 @@ public class Fila {
         fila.offer("Gui");
         
         // Peek e Element -> obter o proximo elemento da fila (sem remover)
-        
+
         // Lista vazia peek retorna null
         // Lista vazia element dispara uma excepition java.util.NoSuchElementException
         //Diferença é o comportamento quando a fila está vazia!
@@ -23,5 +23,11 @@ public class Fila {
         System.out.println(fila.peek());
         System.out.println(fila.element()); // Lança uma exceção
         System.out.println(fila.element());
+
+        System.out.println(fila.size()); // Tamanho da fila
+        
+        fila.clear(); // Limpa a fila
+
+        System.out.println(fila.toString());
     }
 }
