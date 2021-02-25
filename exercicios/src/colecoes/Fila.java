@@ -16,18 +16,31 @@ public class Fila {
         
         // Peek e Element -> obter o proximo elemento da fila (sem remover)
 
-        // Lista vazia peek retorna null
-        // Lista vazia element dispara uma excepition java.util.NoSuchElementException
+        // Fila vazia peek retorna null
+        // Fila vazia element dispara uma excepition java.util.NoSuchElementException
         //Diferença é o comportamento quando a fila está vazia!
         System.out.println(fila.peek()); // retorna false
         System.out.println(fila.peek());
         System.out.println(fila.element()); // Lança uma exceção
         System.out.println(fila.element());
 
-        System.out.println(fila.size()); // Tamanho da fila
-        
-        fila.clear(); // Limpa a fila
+        System.out.println("Remove ->> " + fila.remove()); // Remove o proximo item da fila e retorna o item removido
+                                                            // - OBS: Caso não tenha nenhum elemento na fila será dispara uma excepition java.util.NoSuchElementException
 
+        System.out.println(fila.poll()); // Remove o primeiro elemento da fila depois retorna a fila com elementos que sobraram 
+                                                // -OBS: caso não tenha nenhum elemento na fila será retornado null
+        System.out.println(fila.poll());
+        System.out.println(fila.poll());
+        System.out.println(fila.poll());
+        System.out.println(fila.poll());
+        System.out.println(fila.poll());
+        System.out.println(fila.poll());
+
+        System.out.println(fila.size()); // Tamanho da fila
+        System.out.println(fila.isEmpty()); // Verifica se a fila esta vazia
+        fila.clear(); // Limpa a fila
+        System.out.println(fila.isEmpty()); // Verifica se a fila esta vazia
+        
         System.out.println(fila.toString());
     }
 }
