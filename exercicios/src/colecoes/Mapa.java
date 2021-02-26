@@ -16,6 +16,7 @@ public class Mapa {
         System.out.println(usuarios.keySet()); // Retorna as chaves do objeto
         System.out.println(usuarios.values()); // Retorna os valores do objeto
 
-        System.out.println(usuarios.containsKey(20)); // Rotorna true se houver uma cheve igual a informada
+        System.out.println(usuarios.containsKey(20)); // Retorna true se houver uma cheve igual a informada
+        System.out.println(usuarios.containsValue("Rebeca")); // Retorna true se houver um valor igual ao informado
     }
 }
