@@ -18,5 +18,7 @@ public class Mapa {
 
         System.out.println(usuarios.containsKey(20)); // Retorna true se houver uma cheve igual a informada
         System.out.println(usuarios.containsValue("Rebeca")); // Retorna true se houver um valor igual ao informado
+
+        System.out.println(usuarios.get(4)); // Retorna o valor da cheve informada
     }
 }
