@@ -24,6 +24,7 @@ public class Mapa {
         System.out.println(usuarios.get(4)); // Retorna o valor da cheve informada
         System.out.println(usuarios.remove(1)); // Removendo um chave do Map
         System.out.println(">>>>> " + usuarios.remove(4, "Gui")); // Retorna false se um dos valores informados não existir no Map
+        
 
         for(int chave : usuarios.keySet()) {
             System.out.println(chave);
