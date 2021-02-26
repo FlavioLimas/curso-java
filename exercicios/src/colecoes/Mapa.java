@@ -24,5 +24,9 @@ public class Mapa {
         for(int chave : usuarios.keySet()) {
             System.out.println(chave);
         }
+
+        for(String valor : usuarios.values()){
+            System.out.println(valor);
+        }
     }
 }
