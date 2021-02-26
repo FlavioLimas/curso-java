@@ -22,6 +22,7 @@ public class Mapa {
         System.out.println(usuarios.containsValue("Rebeca")); // Retorna true se houver um valor igual ao informado
 
         System.out.println(usuarios.get(4)); // Retorna o valor da cheve informada
+        System.out.println(usuarios.remove(1)); // Removendo um chave do Map
 
         for(int chave : usuarios.keySet()) {
             System.out.println(chave);
@@ -31,11 +32,9 @@ public class Mapa {
             System.out.println(valor);
         }
 
-        System.out.println("[{");
         for(Entry<Integer, String> usuario : usuarios.entrySet()) {
-            System.out.print("\"" + usuario.getKey() + "\": ");
-            System.out.println("\"" + usuario.getValue() + "\"");
+            System.out.print(usuario.getKey() + " ==> ");
+            System.out.println(usuario.getValue());
         }
-        System.out.println("}]");
     }
 }
