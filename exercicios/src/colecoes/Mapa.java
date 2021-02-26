@@ -1,5 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Map.Entry;
 
 public class Mapa {
     public static void main(String[] args) {
@@ -30,8 +31,11 @@ public class Mapa {
             System.out.println(valor);
         }
 
-        // for(Entry<Integer, String> usuario : usuarios) {
-
-        // }
+        System.out.println("[{");
+        for(Entry<Integer, String> usuario : usuarios.entrySet()) {
+            System.out.print("\"" + usuario.getKey() + "\": ");
+            System.out.println("\"" + usuario.getValue() + "\"");
+        }
+        System.out.println("}]");
     }
 }
