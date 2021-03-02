@@ -18,4 +18,8 @@ public class Carro {
     void desligar() {
         motor.ligado = false;
     }
+
+    boolean estaLigado() {
+        return motor.ligado;
+    }
 }
