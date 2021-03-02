@@ -4,14 +4,15 @@ public class Carro {
     Motor motor = new Motor();
 
     void acelerar() {
-        motor.fatorInjecao += 0.4;
+        if (motor.fatorInjecao < 2.6) {
+            motor.fatorInjecao += 0.4;            
+        }
     }
 
     void frear() {
-        if (motor.fatorInjecao < 1.000) {
-            motor.ligado = false;
+        if (motor.fatorInjecao > 0.5) {
+            motor.fatorInjecao -= 0.4;
         }
-        motor.fatorInjecao -= 0.4;
     }
 
     void ligar() {
