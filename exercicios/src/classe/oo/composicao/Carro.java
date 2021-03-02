@@ -10,4 +10,8 @@ public class Carro {
     void frear() {
         motor.fatorInjecao -= 0.4;
     }
+
+    void ligar() {
+        motor.ligado = true;
+    }
 }
