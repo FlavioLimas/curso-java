@@ -7,6 +7,8 @@ public class CarroTeste {
 
         c1.ligar();
 
-      
+        System.out.println(c1.estaLigado());
+
+        System.out.println(c1.motor.giros());
     }
 }
