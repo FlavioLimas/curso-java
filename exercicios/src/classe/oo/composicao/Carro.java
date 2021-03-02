@@ -14,4 +14,8 @@ public class Carro {
     void ligar() {
         motor.ligado = true;
     }
+
+    void desligar() {
+        motor.ligado = false;
+    }
 }
