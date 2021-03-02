@@ -22,6 +22,9 @@ public class CarroTeste {
         c1.frear();
         c1.frear();
         c1.frear();
+        c1.frear();
+        c1.frear();
+        c1.frear();
 
         System.out.println(c1.motor.giros());
     }
