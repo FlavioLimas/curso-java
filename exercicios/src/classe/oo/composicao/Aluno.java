@@ -15,4 +15,9 @@ public class Aluno {
         this.cursos.add(curso);
         curso.alunos.add(this); // Adicionando esse curso ao aluno recebido como parametro
     }
+
+    // Sempre que for necessario converter um objeto em string deve ser implementado o metodo toString
+    public String toString() {
+        return nome;
+    }
 }
