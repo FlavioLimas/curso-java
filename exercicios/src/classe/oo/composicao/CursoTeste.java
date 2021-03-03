@@ -35,23 +35,8 @@ public class CursoTeste {
         imprime(curso2);
         System.out.println("Curso 3");
         imprime(curso3);
-        // for (Aluno aluno : curso1.alunos) {
-        //     System.out.println("Estou matriculado no curso " + curso1.nome + "...");
-        //     System.out.println("... e o meu nome é " + aluno.nome);
-        //     System.out.println();
-        // }
-        // for (Aluno aluno : curso2.alunos) {
-        //     System.out.println("Estou matriculado no curso " + curso2.nome + "...");
-        //     System.out.println("... e o meu nome é " + aluno.nome);
-        //     System.out.println();
-        // }
-        
-        // for (Aluno aluno : curso3.alunos) {
-        //     System.out.println("Estou matriculado no curso 3 " + curso3.nome + "...");
-        //     System.out.println("... e o meu nome é " + aluno.nome);
-        //     System.out.println();
-        // }
 
+        System.out.println(aluno1.cursos.get(0).alunos);
     }
     
 }
