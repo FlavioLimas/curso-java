@@ -4,14 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Compra {
-    List<Item> itens = new ArrayList<Item>();
+    final List<Item> itens = new ArrayList<Item>();
 
-    Compra(Item item) {
-        this.itens.add(item);
+    void setItem(Produto produto, int quantidade) {
+        this.itens.add(new Item(produto, quantidade));
     }
 
-    Compra(List<Item> itens) {
-        this.itens = itens;
+    void setItem(String nome, double preco, int quantidade) {
+        Produto produto = new Produto(nome, preco);
+        this.itens.add(new Item(produto, quantidade));
     }
 
     double getValorToral() {
