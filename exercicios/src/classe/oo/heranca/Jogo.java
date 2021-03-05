@@ -6,7 +6,7 @@ public class Jogo {
         j1.x = 10;
         j1.y = 10;
 
-        Jogador j2 = new Jogador();
+        Heroi j2 = new Heroi(); // Heroi é filho de Jogador
         j2.x = 10;
         j2.y = 11;
        
