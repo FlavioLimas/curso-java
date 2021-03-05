@@ -10,14 +10,21 @@ public class Jogo {
         heroi.x = 10;
         heroi.y = 11;
        
-        System.out.println(monstro.vida);
-        System.out.println(heroi.vida);
+        System.out.println("Monstro tem => " + monstro.vida);
+        System.out.println("Heroi tem => " + heroi.vida);
         
         monstro.atacar(heroi);
         heroi.atacar(monstro);
         
-        System.out.println(monstro.vida);
-        System.out.println(heroi.vida);
+        monstro.atacar(heroi);
+        heroi.atacar(monstro);
+        
+        monstro.andar(Direcao.NORTE);
+        monstro.atacar(heroi);
+        heroi.atacar(monstro);
+        
+        System.out.println("Monstro tem => " + monstro.vida);
+        System.out.println("Heroi tem => " + heroi.vida);
 
     }
 }
