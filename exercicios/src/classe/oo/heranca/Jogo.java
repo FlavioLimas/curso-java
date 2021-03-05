@@ -14,6 +14,7 @@ public class Jogo {
         System.out.println(j2.vida);
         
         j1.atacar(j2);
+        j2.atacar(j1);
         
         System.out.println(j1.vida);
         System.out.println(j2.vida);
