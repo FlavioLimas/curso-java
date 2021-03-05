@@ -2,7 +2,7 @@ package oo.heranca;
 
 public class Jogo {
     public static void main(String[] args) {
-        Jogador j1 = new Jogador();
+        Monstro j1 = new Monstro();
         j1.x = 10;
         j1.y = 10;
 
