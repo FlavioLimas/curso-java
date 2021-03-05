@@ -5,11 +5,11 @@ public class Jogo {
         Jogador j1 = new Jogador();
         j1.x = 10;
         j1.y = 20;
-        
-        j1.andar("norte");
-        j1.andar("norte");
-        j1.andar("norte");
-        j1.andar("norte");
+
+        j1.andar(2);
+        j1.andar(2);
+        j1.andar(2);
+        j1.andar(2);
 
         System.out.println(j1.y);
     }
