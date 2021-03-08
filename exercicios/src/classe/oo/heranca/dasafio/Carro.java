@@ -12,4 +12,8 @@ public class Carro {
             this.velocidadeAtual -= 5;
         }
     }
+
+    public String toString() {
+        return Integer.toString(this.velocidadeAtual) ;
+    }
 }
