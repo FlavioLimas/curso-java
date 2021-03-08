@@ -1,5 +1,5 @@
 package oo.heranca.dasafio;
 
-public class Civic {
+public class Civic extends Carro {
     
 }

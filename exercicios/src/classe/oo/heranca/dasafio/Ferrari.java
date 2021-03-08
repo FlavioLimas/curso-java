@@ -1,5 +1,5 @@
 package oo.heranca.dasafio;
 
-public class Ferrari {
+public class Ferrari extends Carro {
     
 }
