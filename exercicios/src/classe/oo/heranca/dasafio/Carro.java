@@ -8,8 +8,10 @@ public class Carro {
     }
 
     void frear() {
-        if (this.velocidadeAtual > 0) {
+        if (this.velocidadeAtual >= 5) {
             this.velocidadeAtual -= 5;
+        } else {
+            this.velocidadeAtual = 0;
         }
     }
 
