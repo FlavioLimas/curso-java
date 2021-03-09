@@ -3,7 +3,7 @@ package oo.heranca;
 public class Heroi extends Jogador {
     
     Heroi() {
-        super();
+        super(0, 0);
     }
 
     boolean atacar(Jogador oponente) {
