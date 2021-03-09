@@ -5,8 +5,8 @@ public class VerificaVelocidade {
         Civic civic = new Civic();
         Ferrari ferrari = new Ferrari();
 
-        System.out.println("Velocidade atual Civic >>> " + civic);
-        System.out.println("Velocidade atual Ferrari >>> " + ferrari);
+        System.out.println("Velocidade atual Civic >>> " + civic + "Km/h.");
+        System.out.println("Velocidade atual Ferrari >>> " + ferrari + "Km/h.");
 
         civic.acelerar();
         ferrari.acelerar();
@@ -30,7 +30,7 @@ public class VerificaVelocidade {
         ferrari.frear();
         ferrari.frear();
         
-        System.out.println("Velocidade atual Civic >>> " + civic);
-        System.out.println("Velocidade atual Ferrari >>> " + ferrari);
+        System.out.println("Velocidade atual Civic >>> " + civic + "Km/h.");
+        System.out.println("Velocidade atual Ferrari >>> " + ferrari + "Km/h.");
     }
 }
