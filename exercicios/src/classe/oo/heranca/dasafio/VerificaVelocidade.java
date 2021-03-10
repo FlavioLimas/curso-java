@@ -2,8 +2,8 @@ package oo.heranca.dasafio;
 
 public class VerificaVelocidade {
     public static void main(String[] args) {
-        Civic civic = new Civic();
-        Ferrari ferrari = new Ferrari();
+        Civic civic = new Civic(190);
+        Ferrari ferrari = new Ferrari(400);
 
         System.out.println("Velocidade atual Civic >>> " + civic + "Km/h.");
         System.out.println("Velocidade atual Ferrari >>> " + ferrari + "Km/h.");

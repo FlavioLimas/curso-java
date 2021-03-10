@@ -3,7 +3,7 @@ package oo.heranca.dasafio;
 public class Carro {
     final int VELOCIDADE_MAXIMA;
     int velocidadeAtual;
-    int delta = 5;
+    int delta = 150;
 
     Carro(int velocidadeMaxima){
         VELOCIDADE_MAXIMA = velocidadeMaxima;
