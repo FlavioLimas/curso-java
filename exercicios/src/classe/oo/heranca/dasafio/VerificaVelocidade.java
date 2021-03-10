@@ -15,20 +15,41 @@ public class VerificaVelocidade {
         civic.acelerar();
         ferrari.acelerar();
 
-        civic.frear();
-        ferrari.frear();
-        civic.frear();
-        ferrari.frear();
-        civic.frear();
-        ferrari.frear();
-        civic.frear();
-        ferrari.frear();
-        civic.frear();
-        ferrari.frear();
-        ferrari.frear();
-        ferrari.frear();
-        ferrari.frear();
-        ferrari.frear();
+        civic.acelerar();
+        ferrari.acelerar();
+        civic.acelerar();
+        ferrari.acelerar();
+        civic.acelerar();
+        ferrari.acelerar();
+
+        civic.acelerar();
+        ferrari.acelerar();
+        civic.acelerar();
+        ferrari.acelerar();
+        civic.acelerar();
+        ferrari.acelerar();
+
+        civic.acelerar();
+        ferrari.acelerar();
+        civic.acelerar();
+        ferrari.acelerar();
+        civic.acelerar();
+        ferrari.acelerar();
+
+        // civic.frear();
+        // ferrari.frear();
+        // civic.frear();
+        // ferrari.frear();
+        // civic.frear();
+        // ferrari.frear();
+        // civic.frear();
+        // ferrari.frear();
+        // civic.frear();
+        // ferrari.frear();
+        // ferrari.frear();
+        // ferrari.frear();
+        // ferrari.frear();
+        // ferrari.frear();
         
         System.out.println("Velocidade atual Civic >>> " + civic + "Km/h.");
         System.out.println("Velocidade atual Ferrari >>> " + ferrari + "Km/h.");
