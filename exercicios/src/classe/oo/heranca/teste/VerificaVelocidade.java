@@ -1,4 +1,7 @@
-package oo.heranca.dasafio;
+package oo.heranca.teste;
+
+import oo.heranca.dasafio.Civic;
+import oo.heranca.dasafio.Ferrari;
 
 public class VerificaVelocidade {
     public static void main(String[] args) {
