@@ -4,7 +4,8 @@ public class Pessoa {
     private String nome;
     private int idade;
 
-    public Pessoa(int idade) {
+    public Pessoa(String nome, int idade) {
+        setNome(nome);
         setIdade(idade);
     }
     public int getIdade() {
@@ -22,5 +23,10 @@ public class Pessoa {
     }
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    @Override
+    public String toString() {
+        return "Olá eu sou " + getNome() + " e a minha idade é " + getIdade() + " anos";
     }
 }
