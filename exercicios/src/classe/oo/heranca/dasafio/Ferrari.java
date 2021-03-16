@@ -15,7 +15,7 @@ public class Ferrari extends Carro {
      * TODO: Não é mais necessairo devido a implementação acima
      */
     // @Override
-    // void acelerar() {
+    // public void acelerar() {
     //     velocidadeAtual += 15;
     // }
 }
