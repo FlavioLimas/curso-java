@@ -10,7 +10,9 @@ public class Pessoa {
         return this.idade;
     }
 
-    public void setIdade(int idade) {
-        this.idade = Math.abs(idade);
+    public void setIdade(int novaIdade) {
+        if (novaIdade >= 0) {
+            this.idade = novaIdade;
+        }
     }
 }
