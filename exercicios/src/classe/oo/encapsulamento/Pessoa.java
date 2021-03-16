@@ -4,7 +4,7 @@ public class Pessoa {
     private int idade;
 
     public Pessoa(int idade) {
-        this.idade = Math.abs(idade);
+        setIdade(idade);
     }
     public int getIdade() {
         return this.idade;
