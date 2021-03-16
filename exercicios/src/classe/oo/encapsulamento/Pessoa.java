@@ -11,7 +11,8 @@ public class Pessoa {
     }
 
     public void setIdade(int novaIdade) {
-        if (novaIdade >= 0) {
+        novaIdade = Math.abs(novaIdade);
+        if (novaIdade >= 0 && novaIdade <= 120) {
             this.idade = novaIdade;
         }
     }
