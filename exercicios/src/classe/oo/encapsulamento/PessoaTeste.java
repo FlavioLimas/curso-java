@@ -2,7 +2,7 @@ package oo.encapsulamento;
 
 public class PessoaTeste {
     public static void main(String[] args) {
-        Pessoa p1 = new Pessoa("João", -30);
+        Pessoa p1 = new Pessoa("João", "Amoedo", -30);
 
         p1.setIdade(40);
 
