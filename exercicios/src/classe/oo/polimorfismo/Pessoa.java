@@ -21,5 +21,4 @@ public class Pessoa {
             this.peso = peso;
         }
     }
-
 }
