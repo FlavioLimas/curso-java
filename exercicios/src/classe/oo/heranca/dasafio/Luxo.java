@@ -1,6 +1,9 @@
 package oo.heranca.dasafio;
 
 public interface Luxo {
-    void ligarAr();
-    void desligarAr();
+    public void ligarAr();
+    abstract void desligarAr();
+    default int velocidadeDoAr() {
+        return 1;
+    }
 }
