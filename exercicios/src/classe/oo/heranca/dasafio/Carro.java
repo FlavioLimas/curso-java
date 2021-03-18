@@ -3,7 +3,7 @@ package oo.heranca.dasafio;
 public class Carro {
     private final int VELOCIDADE_MAXIMA;
     private int velocidadeAtual;
-    protected int delta = 150;
+    private int delta = 150;
 
     protected Carro(int velocidadeMaxima){
         VELOCIDADE_MAXIMA = velocidadeMaxima;
@@ -26,5 +26,11 @@ public class Carro {
 
     public String toString() {
         return Integer.toString(this.velocidadeAtual) ;
+    }
+    public int getDelta() {
+        return delta;
+    }
+    public void setDelta(int delta) {
+        this.delta = delta;
     }
 }
