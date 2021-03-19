@@ -14,7 +14,7 @@ public class Foreach {
         }
         
         System.out.println("\nForma Funcional...");
-        aprovados.forEach((nome) -> { System.out.println(nome + "!!!"); });
+        aprovados.forEach( nome -> { System.out.println(nome + "!!!"); });
     }
     
 }
