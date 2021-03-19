@@ -20,6 +20,9 @@ public class Foreach {
         aprovados.forEach( nome -> meuImprimir(nome));
 
         System.out.println("\nMethod Reference...");
+        aprovados.forEach(Foreach::meuImprimir);
+        
+        System.out.println("\nMethod Reference...");
         aprovados.forEach(System.out::println);
     }
 
