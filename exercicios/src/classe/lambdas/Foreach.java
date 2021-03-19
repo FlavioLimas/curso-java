@@ -15,9 +15,16 @@ public class Foreach {
         
         System.out.println("\nForma Funcional...");
         aprovados.forEach( nome -> System.out.println(nome + "!!!"));
+        
+        System.out.println("\nForma Funcional chamando meuImprimir...");
+        aprovados.forEach( nome -> meuImprimir(nome));
 
         System.out.println("\nMethod Reference...");
         aprovados.forEach(System.out::println);
+    }
+
+    static void meuImprimir(String nome) {
+        System.out.println("Oi! Meu nome é " + nome);
     }
     
 }
