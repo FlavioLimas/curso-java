@@ -1,0 +1,8 @@
+package lambdas;
+
+public class OperadorBinario {
+    public static void main(String[] args) {
+        
+        
+    }
+}
