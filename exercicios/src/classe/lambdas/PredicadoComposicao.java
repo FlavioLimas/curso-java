@@ -12,6 +12,7 @@ public class PredicadoComposicao {
         System.out.println(
             isPar
             .and(isTresDigitos)
+            .negate()
             .test(122)
         );
     }
