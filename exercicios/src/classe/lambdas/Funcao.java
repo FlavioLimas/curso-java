@@ -12,7 +12,8 @@ public class Funcao {
         Function<String, String> oResultado = 
             valor -> "O resultado é: " + valor;
 
-            String resultadoFinal = parOuImpar.apply(32);
+            System.out.println(parOuImpar.andThen(oResultado).apply(32));
+
     }
     
 }
