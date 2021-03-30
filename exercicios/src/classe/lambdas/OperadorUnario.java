@@ -14,6 +14,12 @@ public class OperadorUnario {
             .andThen(vezesDois)
             .andThen(aoQuadrado)
             .apply(0)
-            );
+        );
+
+        System.out.println(
+            aoQuadrado
+            .compose(vezesDois)
+            .compose(maisDois)
+        );    
     }
 }
