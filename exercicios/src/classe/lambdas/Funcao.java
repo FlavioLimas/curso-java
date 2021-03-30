@@ -11,8 +11,13 @@ public class Funcao {
 
         Function<String, String> oResultado = 
             valor -> "O resultado é: " + valor;
+        
+        Function<String, String> empolgado = valor -> valor + "!!!";
 
-            System.out.println(parOuImpar.andThen(oResultado).apply(32));
+        System.out.println(parOuImpar
+            .andThen(oResultado)
+            .andThen(empolgado)
+            .apply(32));
 
     }
     
