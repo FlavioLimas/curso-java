@@ -7,7 +7,7 @@ import java.util.function.Supplier;
 public class Fornecedor {
     
     public static void main(String[] args) {
-        Supplier<Object> umLista =
+        Supplier<List<String>> umLista =
             () -> Arrays.asList("Ana", "Bia", "Lia", "Gui");
 
             System.out.println(umLista.get());
