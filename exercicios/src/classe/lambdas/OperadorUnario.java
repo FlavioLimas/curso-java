@@ -20,6 +20,7 @@ public class OperadorUnario {
             aoQuadrado
             .compose(vezesDois)
             .compose(maisDois)
+            .apply(0)
         );    
     }
 }
