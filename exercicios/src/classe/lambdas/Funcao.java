@@ -8,6 +8,11 @@ public class Funcao {
             numero -> numero % 2 == 0 ? "Par" : "Ímpar";
     
         System.out.println(parOuImpar.apply(32));
+
+        Function<String, String> oResultado = 
+            valor -> "O resultado é: " + valor;
+
+            String resultadoFinal = parOuImpar.apply(32);
     }
     
 }
