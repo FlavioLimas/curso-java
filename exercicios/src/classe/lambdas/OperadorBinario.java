@@ -26,7 +26,7 @@ public class OperadorBinario {
             m -> m >= 7 ? "Aprovado" : "Reprovado";
 
         System.out.println(
-            media.andThen(conceito).apply(9.7, 4.1)
+            media.andThen(conceito).apply(9.7, 5.1)
         );
     }
 }
