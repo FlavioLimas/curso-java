@@ -9,13 +9,13 @@ public class Funcao {
     
         System.out.println(parOuImpar.apply(32));
 
-        Function<String, String> oResultado = 
+        Function<String, String> oResultadoE = 
             valor -> "O resultado é: " + valor;
         
         Function<String, String> empolgado = valor -> valor + "!!!";
 
         System.out.println(parOuImpar
-            .andThen(oResultado)
+            .andThen(oResultadoE)
             .andThen(empolgado)
             .apply(32));
 
