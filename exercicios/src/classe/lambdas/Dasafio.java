@@ -23,7 +23,17 @@ public class Dasafio {
         Function<Double, Double> arredondar = 
             valor -> Math.ceil(valor);
 
-        
+        Function<Double, String> format =
+            valor -> String.format("%.2f", valor);
+
+        System.out.println(
+            precoReal
+            .andThen(impostoMunicipal)
+            .andThen(frete)
+            .andThen(arredondar)
+            .andThen(format)
+            .apply(p.preco, p.desconto)
+        );
     }
     
 }
