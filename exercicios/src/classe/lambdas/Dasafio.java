@@ -25,7 +25,7 @@ public class Dasafio {
 
         Function<Double, String> format =
             valor -> String.format("%.2f", valor);
-
+            
         System.out.println(
             precoReal
             .andThen(impostoMunicipal)
