@@ -1,6 +1,7 @@
 package streams;
 
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 
 public class ImprimindoObjetos {
@@ -8,10 +9,11 @@ public class ImprimindoObjetos {
         
         List<String> aprovados = Arrays.asList("Lu", "Gui", "Luca", "Ana");
 
-        for (String nome : aprovados) {
-            System.out.println(nome);
+        Iterator<String> iterator = aprovados.iterator();
+
+        while(iterator.hasNext()) {
+            System.out.println(iterator.next());
         }
-        
 
     }
 }
