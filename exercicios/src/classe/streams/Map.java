@@ -14,5 +14,6 @@ public class Map {
         marcas.stream().map(m -> m.toUpperCase()).forEach(print);
 
         UnaryOperator<String> maiuscula = n -> n.toUpperCase();
+        UnaryOperator<String> primeiraLetra = n -> n.charAt(0) + "";
     }
 }
