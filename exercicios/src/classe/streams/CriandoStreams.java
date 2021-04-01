@@ -10,6 +10,8 @@ public class CriandoStreams {
         Stream<String> langs = Stream.of("Java ", "Lua ", "JS\n");
         langs.forEach(print);
         
-        
+        String[] maisLangs = { "Python ", "Lisp ", "Perl ", "Go\n" };
+
+        Stream.of(maisLangs).forEach(print);
     }
 }
