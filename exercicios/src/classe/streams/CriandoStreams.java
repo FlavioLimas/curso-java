@@ -20,6 +20,6 @@ public class CriandoStreams {
 
         List<String> outrasLangs = Arrays.asList("C ", "PHP ", "Kotlin\n");
         outrasLangs.stream().forEach(print);
-        
+        outrasLangs.parallelStream().forEach(print);
     }
 }
