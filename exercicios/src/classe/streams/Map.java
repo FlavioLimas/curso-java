@@ -16,7 +16,7 @@ public class Map {
         marcas.stream()
             .map(Util.maiuscula)
             .map(Util.primeiraLetra)
-            .map(Util.grito)
+            .map(Util::grito)
             .forEach(print);
     }
 }
