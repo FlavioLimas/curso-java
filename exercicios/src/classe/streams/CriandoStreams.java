@@ -15,5 +15,6 @@ public class CriandoStreams {
 
         Stream.of(maisLangs).forEach(print);
         Arrays.stream(maisLangs).forEach(print);
+        Arrays.stream(maisLangs, 1, 2).forEach(print);
     }
 }
