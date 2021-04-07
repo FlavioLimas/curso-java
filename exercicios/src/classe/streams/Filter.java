@@ -14,6 +14,6 @@ public class Filter {
             new Aluno("Rebeca", 7.1),
             new Aluno("Silvia", 8.8)
         );
-
+        
     }
 }
