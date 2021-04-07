@@ -13,7 +13,7 @@ public class DesafioMap {
             s -> new StringBuilder(s).reverse().toString();
 
         Function<String, Integer> binaryToString = 
-            s -> Integer.parseUnsignedInt(s, 2);
+            s -> Integer.parseInt(s, 2);
         
         nums.stream()
             .map(Integer::toBinaryString)
