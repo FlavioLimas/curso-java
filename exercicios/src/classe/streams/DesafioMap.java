@@ -10,11 +10,11 @@ public class DesafioMap {
         List<Integer> nums = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
 
         Consumer<String> print = System.out::print;
-        // UnaryOperator<String> invertString =
-        // m -> new StringBuilder(m).reverse().toString();
+        UnaryOperator<String> invertString =
+        m -> new StringBuilder(m).reverse().toString();
         nums.stream()
             .map(m -> Integer.toBinaryString(m))
-            // .map(invertString)
+            .map(invertString)
             .forEach(print);
     }
 }
