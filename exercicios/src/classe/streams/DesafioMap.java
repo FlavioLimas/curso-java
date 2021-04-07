@@ -14,7 +14,8 @@ public class DesafioMap {
         m -> new StringBuilder(m).reverse().toString();
         nums.stream()
             .map(m -> Integer.toBinaryString(m))
-            .map(invertString) 
+            .map(invertString)
+            .map(m -> String.valueOf(Integer.parseInt(m, 2)))
             .forEach(print);
     }
 }
