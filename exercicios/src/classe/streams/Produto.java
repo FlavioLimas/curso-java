@@ -1,7 +1,6 @@
 package streams;
 
 public class Produto {
-    private Integer id = 0;
     private String nome;
     private Double preco;
     private Double desconto;
