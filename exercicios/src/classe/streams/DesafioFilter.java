@@ -18,12 +18,12 @@ public class DesafioFilter {
         );
 
         Predicate<Produto> temDesconto = 
-            f -> f.getDesconto() >= .30;
+            f -> f.getDesconto() >= .3;
 
         Predicate<Produto> temFreteGratis = 
             f -> f.getFrete() == 0;
        
-        Predicate<Produto> produtoRelevante = 
+        Predicate<Produto> precoRelevante = 
             f -> f.getPreco() >= 500;
 
         Function<Produto, String> print = 
@@ -32,7 +32,7 @@ public class DesafioFilter {
         carinhoCompras.stream()
             .filter(temDesconto)
             .filter(temFreteGratis)
-            .filter(produtoRelevante)
+            .filter(precoRelevante)
             .map(print)
             .forEach(System.out::println);
 
