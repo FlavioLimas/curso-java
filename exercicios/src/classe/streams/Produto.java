@@ -3,23 +3,48 @@ package streams;
 public class Produto {
     private Integer id = 0;
     private String nome;
+    private Double preco;
+    private Double desconto;
+    private Boolean frete;
     
-    public Produto(String nome) {
-        this.nome = nome;
+    public Produto(String nome, Double preco, Double desconto, Boolean frete) {
         id += 1;
+        this.nome = nome;
+        this.preco = preco;
+        this.desconto = desconto;
+        this.frete = frete;
     }
 
-    public Integer getId() {
-        return id;
-    }
-    public void setId(Integer id) {
-        this.id = id;
-    }
     public String getNome() {
         return nome;
     }
+
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public Double getPreco() {
+        return preco;
+    }
+
+    public void setPreco(Double preco) {
+        this.preco = preco;
+    }
+
+    public Double getDesconto() {
+        return desconto;
+    }
+
+    public void setDesconto(Double desconto) {
+        this.desconto = desconto;
+    }
+
+    public Boolean getFrete() {
+        return frete;
+    }
+
+    public void setFrete(Boolean frete) {
+        this.frete = frete;
     }
 
 }
