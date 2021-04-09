@@ -4,9 +4,9 @@ public class Produto {
     private String nome;
     private Double preco;
     private Double desconto;
-    private Boolean frete;
+    private Double frete;
     
-    public Produto(String nome, Double preco, Double desconto, Boolean frete) {
+    public Produto(String nome, Double preco, Double desconto, Double frete) {
         this.nome = nome;
         this.preco = preco;
         this.desconto = desconto;
@@ -37,11 +37,11 @@ public class Produto {
         this.desconto = desconto;
     }
 
-    public Boolean getFrete() {
+    public Double getFrete() {
         return frete;
     }
 
-    public void setFrete(Boolean frete) {
+    public void setFrete(Double frete) {
         this.frete = frete;
     }
 
