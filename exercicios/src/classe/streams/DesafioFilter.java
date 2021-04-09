@@ -8,15 +8,13 @@ import java.util.function.Predicate;
 public class DesafioFilter {
     public static void main(String[] args) {
         List<Produto> carinhoCompras = Arrays.asList(
-            new Produto("Lapis", 6.50, .5, 30.),
-            new Produto("Caneta", 6.50, .5, 30.),
-            new Produto("NoteBook", 3499.99, .35, 30.),
-            new Produto("Impressora", 2299.99, .40, 30.),
-            new Produto("Lapis", 6.50, .5, 30.),
-            new Produto("Caneta", 6.50, .5, 30.),
-            new Produto("NoteBook", 3499.99, .35, 30.),
-            new Produto("Impressora", 2299.99, .40, 30.),
-            new Produto("Impressora", 2299.99, .40, 30.)
+            new Produto("Lapis", 1.99, .35, 0.),
+            new Produto("NoteBook", 4899.89, .32, 0.),
+            new Produto("Caderno", 30., .45, 0.),
+            new Produto("Impressora",1200., .40, 0.),
+            new Produto("iPad", 3100., .29, 0.),
+            new Produto("Relogio", 1.900, .12, 0.),
+            new Produto("Monitor", 800., .31, 0.)
         );
 
         Predicate<Produto> temDesconto = 
@@ -24,6 +22,9 @@ public class DesafioFilter {
 
         Predicate<Produto> temFreteGratis = 
             f -> f.getFrete() == 0;
+       
+        Predicate<Produto> produtoRelevante = 
+            f -> f.getPreco() >= 500;
 
         Function<Produto, String> print = 
             m -> "O " + m.getNome() + " super Promoção " + m.getPreco() + " Não perca";
@@ -31,6 +32,7 @@ public class DesafioFilter {
         carinhoCompras.stream()
             .filter(temDesconto)
             .filter(temFreteGratis)
+            .filter(produtoRelevante)
             .map(print)
             .forEach(System.out::println);
 
