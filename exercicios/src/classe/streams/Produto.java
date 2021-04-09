@@ -7,7 +7,6 @@ public class Produto {
     private Boolean frete;
     
     public Produto(String nome, Double preco, Double desconto, Boolean frete) {
-        id += 1;
         this.nome = nome;
         this.preco = preco;
         this.desconto = desconto;
