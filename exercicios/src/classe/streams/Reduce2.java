@@ -2,6 +2,7 @@ package streams;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Function;
 import java.util.function.Predicate;
 
 public class Reduce2 {
@@ -16,7 +17,8 @@ public class Reduce2 {
         Predicate<Aluno> isAprove = 
             a -> a.nota >= 7.;
 
-
+        Function<Aluno, Double> returnNota =
+        a -> a.nota;
 
     }
 }
