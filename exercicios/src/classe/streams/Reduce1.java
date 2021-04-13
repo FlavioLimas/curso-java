@@ -11,6 +11,6 @@ public class Reduce1 {
         BinaryOperator<Integer> soma = 
             (acumulador, n) -> acumulador + n;
 
-        nums.stream().reduce(soma);
+        System.out.println(nums.stream().reduce(soma).get());
     }
 }
