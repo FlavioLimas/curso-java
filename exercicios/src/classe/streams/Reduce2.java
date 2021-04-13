@@ -2,6 +2,7 @@ package streams;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.BinaryOperator;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
@@ -18,7 +19,10 @@ public class Reduce2 {
             a -> a.nota >= 7.;
 
         Function<Aluno, Double> returnNota =
-        a -> a.nota;
+            a -> a.nota;
+
+        BinaryOperator<Double> soma = 
+            (a, b) -> a + b;
 
     }
 }
