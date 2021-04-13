@@ -12,5 +12,7 @@ public class Reduce1 {
             (acumulador, n) -> acumulador + n;
 
         System.out.println(nums.stream().reduce(soma).get());
+
+        System.out.println(nums.parallelStream().reduce(100, soma));
     }
 }
