@@ -24,5 +24,10 @@ public class Reduce2 {
         BinaryOperator<Double> soma = 
             (a, b) -> a + b;
 
+        alunos.stream()
+            .filter(isAprove)
+            .map(returnNota)
+            .reduce(soma)
+            .ifPresent(System.out::println);
     }
 }
