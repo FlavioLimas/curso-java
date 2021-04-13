@@ -14,5 +14,10 @@ public class Reduce1 {
         System.out.println(nums.stream().reduce(soma).get());
 
         System.out.println(nums.parallelStream().reduce(100, soma));
+
+        nums.stream()
+            .filter(n -> n > 5)
+            .reduce(soma)
+            .ifPresent(System.out::println);
     }
 }
