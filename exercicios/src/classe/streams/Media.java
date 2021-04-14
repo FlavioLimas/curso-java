@@ -4,12 +4,12 @@ public class Media {
     private Double total;
     private Integer contadorQuantidade;
 
-    public Media(Double total) {
-        adicionar(total);
+    public Media(Double nota) {
+        adicionar(nota);
     }
 
-    public void adicionar(Double n) {
-        total += n;
+    public void adicionar(Double nota) {
+        total += nota;
         contadorQuantidade++;
     }
 
