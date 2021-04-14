@@ -1,15 +1,11 @@
 package streams;
 
-import java.util.Arrays;
-import java.util.List;
-
 public class MediaTeste {
+    public static void main(String[] args) {
+      
+      Media n1 = new Media().adicionar(8.3).adicionar(6.7);
 
-    List<Media> notaB1 = Arrays.asList(
-      new Media(8.3),
-      new Media(6.7)
-    );
+      System.out.println(n1.getMedia());
+    }
     
-    
-
 }
