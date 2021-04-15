@@ -8,6 +8,8 @@ public class MediaTeste {
 
     System.out.println(m1.getMedia());
     System.out.println(m2.getMedia());
+
+    System.out.println(Media.calcMedia(m1, m2).getMedia());
   }
     
 }
