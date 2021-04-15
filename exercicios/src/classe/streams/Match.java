@@ -16,5 +16,6 @@ public class Match {
             a -> a.nota >= 7.;
 
         System.out.println(alunos.stream().allMatch(isAprove));
+        System.out.println(alunos.stream().anyMatch(isAprove));
     }
 }
