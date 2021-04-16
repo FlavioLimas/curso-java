@@ -24,6 +24,10 @@ public class MinMax {
             alunos.stream()
             .max(melhorNota).get()
         );
+        System.out.println(
+            alunos.stream()
+            .min(melhorNota).get()
+        );
     }
     
 }
