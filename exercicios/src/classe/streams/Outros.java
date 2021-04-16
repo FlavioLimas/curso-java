@@ -11,7 +11,7 @@ public class Outros {
         new Aluno("Gui", 8.1),
         new Aluno("Gabi", 10.),
         new Aluno("Ana", 7.1),
-        new Aluno("Pedro", 6.1),
+        new Aluno("Pedro", 9.1),
         new Aluno("Gui", 8.1),
         new Aluno("Maria", 10.)
     );
@@ -31,6 +31,7 @@ public class Outros {
     System.out.println("\ntakeWhile");
     alunos.stream()
         .distinct()
+        .skip(2)
         .takeWhile(a -> a.nota >= 7.)
         .forEach(System.out::println);
 
