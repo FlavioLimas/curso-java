@@ -18,7 +18,15 @@ public class Outros {
 
     System.out.println("Distinct..." );
     alunos.stream()
-    .distinct()
-    .forEach(System.out::println);
+        .distinct()
+        .forEach(System.out::println);
+
+    System.out.println("\nSkip/Limit");
+    alunos.stream()
+        .distinct()
+        .skip(2)
+        .limit(2)
+        .forEach(System.out::println);
+
     }
 }
