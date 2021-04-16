@@ -19,5 +19,5 @@ public class Media {
         resultante.total = m1.total + m2.total;
         resultante.contadorQuantidade = m1.contadorQuantidade + m2.contadorQuantidade;
         return resultante;
-      }
+    }
 }

@@ -1,6 +1,7 @@
 package streams;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 public class MinMax {
@@ -13,7 +14,16 @@ public class MinMax {
             new Aluno("Gabi", 10.)
         );
         
-        
+        Comparator<Aluno> melhorNota = (a1, a2) -> {
+            if(a1.nota > a2.nota) return 1;
+            if(a1.nota < a2.nota) return -1;
+            return 0;
+        };
+
+        System.out.println(
+            alunos.stream()
+            .max(melhorNota).get()
+        );
     }
     
 }
