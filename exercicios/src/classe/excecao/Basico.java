@@ -11,7 +11,11 @@ public class Basico {
             System.out.println("Ocorreu um erro no momento da impressão do nome do usuário");
         }
 
-        System.out.println(7 / 0);
+        try {
+            System.out.println(7 / 0);
+        } catch (ArithmeticException e) {
+            e.printStackTrace();
+        }
 
         System.out.println("Fim :)");
     }
