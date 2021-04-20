@@ -14,7 +14,7 @@ public class Basico {
         try {
             System.out.println(7 / 0);
         } catch (ArithmeticException e) {
-            e.printStackTrace();
+            System.out.println("Ocorreu o erro: " + e.getMessage());
         }
 
         System.out.println("Fim :)");
