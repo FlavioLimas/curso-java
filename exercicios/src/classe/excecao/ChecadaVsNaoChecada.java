@@ -3,7 +3,11 @@ package excecao;
 public class ChecadaVsNaoChecada {
     
     public static void main(String[] args) {
-        geraErro1();
+        try {
+            geraErro1();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         geraErro2();
 
         System.out.println("Fim :)");
@@ -14,6 +18,6 @@ public class ChecadaVsNaoChecada {
     }
 
     static void geraErro2() {
-        new RuntimeException("Ocorreu um erro bem legal #02!");
+        new Exception("Ocorreu um erro bem legal #02!");
     }
 }
