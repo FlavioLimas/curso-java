@@ -8,8 +8,12 @@ public class ChecadaVsNaoChecada {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
-        geraErro2();
-
+        try {
+            geraErro2();   
+        } catch (Exception e) {
+            System.out.println("Gera error #2");
+        }
+            
         System.out.println("Fim :)");
     }
 
@@ -23,11 +27,7 @@ public class ChecadaVsNaoChecada {
     /* 
     * Exception chacada e verificada
     */
-    static void geraErro2() {
-        try {
-            throw new Exception("Ocorreu um erro bem legal #02!");
-        } catch (Exception e) {
-            System.out.println("Que legal!");
-        }
+    static void geraErro2() throws Exception {
+        throw new Exception("Ocorreu um erro bem legal #02!");
     }
 }
