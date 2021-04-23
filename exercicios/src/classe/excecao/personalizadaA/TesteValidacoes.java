@@ -9,7 +9,9 @@ public class TesteValidacoes {
             Validar.validarAluno(aluno);
 
             Validar.validarAluno(null);
-        } catch (StringVaziaException | NumeroForaIntervaloException e) {
+        } catch (StringVaziaException
+                    | NumeroForaIntervaloException
+                    | IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
 
