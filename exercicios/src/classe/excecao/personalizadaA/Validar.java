@@ -7,7 +7,7 @@ public class Validar {
 
     public static void aluno(Aluno aluno) {
         if(aluno == null) {
-            throw new IllegalArgumentException("O aluno está null")
+            throw new IllegalArgumentException("O aluno está null!");
         }
     }
 }
