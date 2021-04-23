@@ -9,6 +9,8 @@ public class TesteValidacoes {
             Validar.validarAluno(aluno);
         } catch (StringVaziaException e) {
             System.out.println(e.getMessage());
+        } catch (NumeroForaIntervaloException e) {
+            System.out.println(e.getMessage());
         }
 
         System.out.println("Fim :)");
