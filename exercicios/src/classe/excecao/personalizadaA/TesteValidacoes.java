@@ -7,6 +7,8 @@ public class TesteValidacoes {
         try {
             Aluno aluno = new Aluno("Ana", -7.);
             Validar.validarAluno(aluno);
+
+            Validar.validarAluno(null);
         } catch (StringVaziaException | NumeroForaIntervaloException e) {
             System.out.println(e.getMessage());
         }
