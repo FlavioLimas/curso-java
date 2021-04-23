@@ -10,10 +10,10 @@ public class ChecadaVsNaoChecada {
         }
         try {
             geraErro2();   
-        } catch (Exception e) {
+        } catch (Throwable e) {
             System.out.println("Gera error #2");
         }
-            
+         
         System.out.println("Fim :)");
     }
 
