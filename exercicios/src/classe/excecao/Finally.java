@@ -11,7 +11,14 @@ public class Finally {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         } finally {
-            System.out.println("Finally...");
+            System.out.println("Finally #1...");
+        }
+        try {
+            System.out.println(7 / entrada.nextInt());
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        } finally {
+            System.out.println("Finally #2...");
             entrada.close();
         }
         System.out.println("Fim!");
