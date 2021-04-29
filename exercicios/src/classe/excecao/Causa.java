@@ -5,11 +5,15 @@ public class Causa {
         
     }
 
-    static void motodoA(Aluno aluno) {
-        
+    static void metodoA(Aluno aluno) {
+        metodoB(aluno);
     }
-    
-    static void motodoB(Aluno aluno) {
 
+    static void metodoB(Aluno aluno) {
+        if (aluno == null) {
+            throw new NullPointerException("Aluno esta NUUUULLLOOO");
+        }
+
+        System.out.println(aluno.nome);
     }
 }
